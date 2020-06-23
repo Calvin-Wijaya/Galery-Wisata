@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------write code here-----------------------------------------*/
+
+.container {
+    width: auto;
+    padding: 0 10px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.galery {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+}
+
+.galery-foto {
+    float: left;
+    width: 25%;
+    padding: 15px 0px;
+}
+
+.foto-wisata {
+    position: relative;
+}
+
+.foto-wisata img{
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 5px 40px 5px 45px;
+    box-shadow: 5px 5px 3px rgba(172, 172, 172, 0.5);
+}
+
+.foto-wisata h3{
+    font-weight: normal;
+    color: white;
+    width: 75%;
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.foto-wisata .label {
+    display: block;
+    background-color: rgba(250, 126, 112, 0.8);
+    position: absolute;
+    top: 0px;
+    left: 72px;
+    height: 50px;
+    border-radius: 0px 40px 0px 10px;
+    text-align: center;
+    width: 178px;
+}
+
+.galery-foto p {
+    width: 80%;
+    height: 20%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #5f5d60;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 18px;
+    border-top: 1px solid silver;
+    padding-top: 10px;
+    text-shadow: 2px 2px 2px rgba(172, 172, 172, 0.5);
+}
+
+.btn-read {
+    width: 100px;
+    height: 20px;
+    background-color: rgb(250, 126, 112);
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 3px 2px rgba(172, 172, 172, 0.5);
+    color: white;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-read:hover {
+    background-color: rgb(250, 255, 177);
+    color: rgb(250, 126, 112)
+}
+
+.btn-read:active {
+    top: 2px;
+    left: 2px;
+    position: relative;
+    box-shadow: none;
+}
